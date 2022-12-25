@@ -43,6 +43,7 @@ This Site is a mini Project using NodeJS and EJS Templating. Which has a Custome
 - Admin can only edit and delete a product.
 
 - <img src="./img/admin-001.jpeg">
+- <img src="./img/admin-002.jpeg">
 
 ---
 
@@ -53,8 +54,12 @@ This Site is a mini Project using NodeJS and EJS Templating. Which has a Custome
 - Customer buy book in his cart. It also have a Quantity function. He can Buy More than one book of Same Type.
 - Customer get a mail when his order is successful and when he registered on this Web
 
+- <img src="./img/customer-001.jpeg">
+- <img src="./img/customer-002.jpeg">
+
 ---
 
 ### Email Notification
 
 - <img src="./img/email-001.jpeg">
+- <img src="./img/email-002.jpeg">
