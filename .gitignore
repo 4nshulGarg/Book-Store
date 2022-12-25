@@ -1,8 +1,6 @@
 node_modules
 .env
-README.md
 package-lock.json
-img
 Dockerfile
 .dockerignore
 nginx.conf
