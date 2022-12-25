@@ -26,7 +26,7 @@ This Site is a mini Project using NodeJS and EJS Templating. Which has a Custome
 5. `Bootstrap` is used for building UI
 6. Site has `Admin` functionality by which site owner can add Books to this Store.
 7. `Stripe` is used for Payment Gateway.
-8. `SendGrid` API is used for sending Emails.
+8. Used `Sendinblue` API for sending Emails.
 
 ---
 
