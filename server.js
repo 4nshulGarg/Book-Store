@@ -9,7 +9,7 @@ const passport = require('passport');
 const connectDB = require('./config/db');
 const flash = require('connect-flash');
 
-connectDB(process.env.MONGO_URI);
+
 require('./config/passport')(passport);
 
 app.use(
@@ -44,6 +44,7 @@ app.use('/books/:id/comments', require('./routes/comments'));
 app.use('/admin', require('./routes/admin'));
 
 const PORT = process.env.PORT || 5050;
-app.listen(PORT, process.env.IP, () => {
+app.listen(PORT, async () => {
+	await connectDB(process.env.MONGO_URI);
 	console.log(`Server started on port ${PORT} on ${process.env.NODE_ENV} mode`);
 });
